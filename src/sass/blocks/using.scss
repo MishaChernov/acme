@@ -10,6 +10,8 @@
   border-radius: 3px;
   padding: 5px 5px;
   padding-left: 10px;
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 .using__form {
@@ -17,6 +19,7 @@
   text-align: center;
   align-items: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .using__btn {
@@ -27,4 +30,22 @@
   margin: 0;
   margin-right: auto;
   margin-left: 10px;
+  margin-top: 5px;
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+  .using__input {
+    margin-left: auto;
+    border: 2px solid #ececec;
+    border-radius: 3px;
+    padding: 5px 5px;
+    padding-left: 10px;
+    margin-right: 0;
+  }
+  .using__btn {
+    margin: 0;
+    margin-right: auto;
+    margin-left: 10px;
+  }
 }

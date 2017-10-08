@@ -124,7 +124,7 @@ gulp.task('watch', function() {
 
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
-    .pipe(ghPages({origin: 'me', force: true}));
+    .pipe(ghPages());
 });
 
 gulp.task('serve', function() {
